@@ -19,9 +19,6 @@ int main() {
     int max_dlina_ocheredi = 0;   
     int vremya_ojidaniya = 0;  
 
-    printf("=== Старт симуляции очереди (на 'Удовлетворительно') ===\n\n");
-
-    // Основной цикл симуляции по тактам времени
     for (int vremya = 1; vremya <= dlitelnost; vremya++) {
         if (rand() % 100 < veroyatnost_prihoda) {
             dlina_ocheredi++;
